@@ -4,12 +4,17 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
+  name = "主页"
   url = "#about"
   weight = 10
 
+
 [[main]]
-  name = "Posts"
+  name = "职业经历"
+  url = "#experience"
+  weight = 15
+[[main]]
+  name = "近期发布"
   url = "#posts"
   weight = 20
 
@@ -19,12 +24,12 @@
 #   weight = 30
 
 [[main]]
-  name = "Talks"
+  name = "公开演讲"
   url = "#talks"
   weight = 40
 
 [[main]]
-  name = "Contact"
+  name = "与我联系"
   url = "#contact"
   weight = 60
 
